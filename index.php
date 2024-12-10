@@ -62,7 +62,7 @@ else{ // ipv6 hex (ip de chip)
 	
 $res = json_decode(@file_get_contents("http://ip-api.com/json/$myip"));
 
-if($res->status !== "fail" && $res->countryCode !== "BR" && $myip !== "191.235.88.105"){ // <<---------- TROCAR PELO IP DA SUA VPS
+if($res->status !== "fail" && $res->countryCode !== "BR" && $myip !== "20.201.28.151"){ // <<---------- TROCAR PELO IP DA SUA VPS
  
  // $pais = $res->country;
  // $query = mysqli_query($conn, "INSERT INTO crawlers_spiders (nome) VALUES ('".$pais."')");
